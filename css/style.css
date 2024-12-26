@@ -4,8 +4,7 @@
 /* ============ css variables ============= */
 :root {
   /* === font family === */
-  --oswald-font: "Oswald", sans-serif;
-  --barlow-font: "Barlow Condensed", sans-serif;
+  --poppins-font: "Poppins", serif;
   /* === font family === */
   /* === font weight === */
   --light-weight: 300;
@@ -65,7 +64,49 @@ img {
   vertical-align: middle;
 }
 .container {
-  max-width: 1320px;
+  max-width: 1208px;
   margin: 0 auto;
 }
+body {
+  font-family: var(--poppins-font);
+}
 /* ============= common css end here ================ */
+/* ================= navbar css start here ================ */
+#navbar {
+  width: 100%;
+  padding: 30px 0;
+}
+#navbar .navbar-brand {
+  max-width: 121px;
+}
+#navbar .navbar-nav {
+  column-gap: 47px;
+}
+#navbar .nav-link {
+  padding: 0;
+  color: var(--black-clr);
+  font-size: 14px;
+  font-weight: var(--regular-weight);
+  line-height: 22px;
+  letter-spacing: 1.5px;
+}
+.nav_btn {
+  padding: 11px 22px;
+  color: var(--white-clr);
+  font-size: 14px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+  background: #5e3bee;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.nav_btn i {
+  margin-left: 7px;
+  font-size: 16px;
+}
+
+/* ================= navbar css end here ================ */
