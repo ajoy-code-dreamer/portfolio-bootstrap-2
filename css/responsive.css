@@ -11,8 +11,13 @@
     display: flex;
     justify-content: center;
   }
-
   /* === navbar === */
+  /* === banner === */
+  #banner{
+    text-align: center;
+  }
+
+  /* === banner === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 

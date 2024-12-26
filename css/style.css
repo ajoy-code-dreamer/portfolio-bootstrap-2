@@ -76,6 +76,9 @@ body {
   width: 100%;
   padding: 30px 0;
   background-color: #f9f9fc;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 #navbar .navbar-brand {
   max-width: 121px;
@@ -113,3 +116,94 @@ body {
 }
 
 /* ================= navbar css end here ================ */
+
+/* ================ banner section css start here ============ */
+#banner {
+  padding: 116px 0 44px;
+}
+.banner_sub_heading {
+  color: #5e3bee;
+  font-size: 16px;
+  font-weight: var(--medium-weight);
+  line-height: 26px;
+  letter-spacing: 1.5px;
+}
+.banner_heading {
+  color: #333;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 78px;
+  margin: 32px 0;
+}
+.banner_btn_wrapper{
+  column-gap: 23px;
+}
+.banner_btn_wrapper .banner_btn:nth-child(1) {
+  padding: 24px 38px;
+  color: var(--white-clr);
+  font-size: 14px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+  background: #5e3bee;
+}
+.banner_btn_wrapper .banner_btn:nth-child(1) i {
+  margin-right: 9px;
+  font-size: 18px;
+}
+.banner_btn_wrapper .banner_btn:nth-child(2) {
+  color: #333;
+  font-size: 14px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.banner_btn_wrapper .banner_btn:nth-child(2) img{
+  width: 20px;
+  height: 20px;
+}
+.banner_image_part_wrapper{
+  max-width: 700px;
+}
+
+/* ================ banner section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
+
+/* ================  section css start here ============ */
+/* ================  section css end here ============ */
