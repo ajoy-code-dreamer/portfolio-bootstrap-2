@@ -28,6 +28,11 @@
   }
 
   /* === banner === */
+  /* === counter === */
+  #counter{
+    padding: 64px 0;
+  }
+  /* === counter === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -52,6 +57,11 @@
     justify-content: center;
   }
   /* === banner === */
+  /* === counter === */
+  #counter{
+    padding: 64px 0;
+  }
+  /* === counter === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 

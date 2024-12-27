@@ -23,6 +23,7 @@
   --primary-text-clr: #333;
   --secondary-text-clr: #dddddd;
   --transparent-clr: transparent;
+  --btn-hover-clr: #36208f;
   /* === colors === */
   /* === method === */
   --transition: all 0.3s linear;
@@ -71,6 +72,17 @@ img {
 body {
   font-family: var(--poppins-font);
 }
+.common_btn {
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.common_btn:hover {
+  background-color: var(--btn-hover-clr) !important;
+  color: var(--white-clr);
+}
 /* ============= common css end here ================ */
 /* ================= navbar css start here ================ */
 #navbar {
@@ -110,10 +122,19 @@ body {
   -o-border-radius: 50px;
   border: none;
   outline: none;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
 }
 .nav_btn i {
   margin-left: 7px;
   font-size: 16px;
+}
+.common_btn:hover {
+  background-color: var(--btn-hover-clr);
+  color: var(--white-clr);
 }
 
 /* ================= navbar css end here ================ */
@@ -136,7 +157,7 @@ body {
   line-height: 78px;
   margin: 32px 0;
 }
-.banner_btn_wrapper{
+.banner_btn_wrapper {
   column-gap: 23px;
 }
 .banner_btn_wrapper .banner_btn:nth-child(1) {
@@ -147,7 +168,7 @@ body {
   line-height: normal;
   letter-spacing: 0.5px;
   border-radius: 50px;
-  background: var(--primary-clr);
+  background-color: var(--primary-clr);
 }
 .banner_btn_wrapper .banner_btn:nth-child(1) i {
   margin-right: 9px;
@@ -163,18 +184,38 @@ body {
   align-items: center;
   column-gap: 10px;
 }
-.banner_btn_wrapper .banner_btn:nth-child(2) img{
+.banner_btn_wrapper .banner_btn:nth-child(2) img {
   width: 20px;
   height: 20px;
 }
-.banner_image_part_wrapper{
+.banner_image_part_wrapper {
   max-width: 700px;
 }
 
 /* ================ banner section css end here ============ */
 
-/* ================  section css start here ============ */
-/* ================  section css end here ============ */
+/* ================ counter section css start here ============ */
+#counter {
+  padding: 93px 0;
+}
+.counter_item {
+  text-align: center;
+}
+.counter_numbering {
+  color: var(--black-clr);
+  font-size: 48px;
+  font-weight: var(--semi-bold-weight);
+  line-height: 56px;
+  letter-spacing: 0.5px;
+}
+.counter_name {
+  color: rgba(18, 18, 18, 0.7);
+  font-size: 16px;
+  font-weight: var(--medium-weight);
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+/* ================ counter section css end here ============ */
 
 /* ================  section css start here ============ */
 /* ================  section css end here ============ */
