@@ -29,28 +29,36 @@
 
   /* === banner === */
   /* === counter === */
-  #counter{
+  #counter {
     padding: 64px 0;
   }
   /* === counter === */
   /* === counter === */
-  .service_section_heading{
+  .service_section_heading {
     font-size: 34px;
   }
   /* === counter === */
   /* === about === */
-  .about_section_heading{
+  .about_section_heading {
     margin: 0 auto;
     font-size: 44px;
     line-height: 64px;
   }
-  .about_section_details{
+  .about_section_details {
     margin: 0 auto;
   }
-  .about_btn{
+  .about_btn {
     margin-top: 14px;
   }
   /* === about === */
+  /* === portfolio === */
+  .portfolio_section_heading_wrapper {
+    text-align: center;
+  }
+  .portfolio_section_heading_wrapper:last-child {
+    margin-bottom: 30px;
+  }
+  /* === portfolio === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -76,23 +84,31 @@
   }
   /* === banner === */
   /* === counter === */
-  #counter{
+  #counter {
     padding: 64px 0;
   }
   /* === counter === */
   /* === about === */
-  .about_section_heading{
+  .about_section_heading {
     margin: 0 auto;
     font-size: 44px;
     line-height: 64px;
   }
-  .about_section_details{
+  .about_section_details {
     margin: 0 auto;
   }
-  .about_btn{
+  .about_btn {
     margin-top: 14px;
   }
   /* === about === */
+  /* === portfolio === */
+  .portfolio_section_heading_wrapper {
+    text-align: center;
+  }
+  .portfolio_section_heading_wrapper:last-child {
+    margin-bottom: 30px;
+  }
+  /* === portfolio === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -119,18 +135,26 @@
   }
   /* === banner === */
   /* === about === */
-  .about_section_heading{
+  .about_section_heading {
     margin: 0 auto;
     font-size: 44px;
     line-height: 64px;
   }
-  .about_section_details{
+  .about_section_details {
     margin: 0 auto;
   }
-  .about_btn{
+  .about_btn {
     margin-top: 14px;
   }
   /* === about === */
+  /* === portfolio === */
+  .portfolio_section_heading_wrapper {
+    text-align: center;
+  }
+  .portfolio_section_heading_wrapper:last-child {
+    margin-bottom: 30px;
+  }
+  /* === portfolio === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 

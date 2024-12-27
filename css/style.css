@@ -209,8 +209,8 @@ body {
 .service_section_shape img {
   position: absolute;
   z-index: -1;
-  top: -23px;
-  left: 22px;
+  top: -30px;
+  left: 10px;
 }
 .service_section_heading {
   color: var(--black-clr);
@@ -311,23 +311,83 @@ body {
   letter-spacing: 0.5px;
   margin-bottom: 30px;
 }
-.about_btn{
+.about_btn {
   column-gap: 10px;
 }
 /* ================ about section css end here ============ */
 
 /* ================ branding section css start here ============ */
-#branding{
+#branding {
   padding: 127px 0 113px;
 }
-.branding_item{
+.branding_item {
   max-width: 229px;
   margin: 0 auto;
 }
 /* ================ branding section css end here ============ */
 
-/* ================  section css start here ============ */
-/* ================  section css end here ============ */
+/* ================ portfolio section css start here ============ */
+#portfolio {
+  padding: 105px 0 132px;
+}
+.portfolio_section_heading {
+  color: var(--black-clr);
+  font-size: 44px;
+  font-weight: var(--semi-bold-weight);
+  line-height: 56px;
+  letter-spacing: 0.22px;
+  margin-top: 11px;
+}
+.portfolio_section_details {
+  max-width: 557px;
+  color: rgba(18, 18, 18, 0.7);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+.portfolio_item {
+  max-width: 583px;
+  border-radius: 24px;
+  background-color: var(--white-clr);
+  box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.1);
+}
+.portfolio_image {
+  height: 389px;
+  width: 100%;
+  border-radius: 24px 24px 0px 0px;
+  background: #c4c4c4;
+  -webkit-border-radius: 24px 24px 0px 0px;
+  -moz-border-radius: 24px 24px 0px 0px;
+  -ms-border-radius: 24px 24px 0px 0px;
+  -o-border-radius: 24px 24px 0px 0px;
+}
+.portfolio_details {
+  padding: 33px 47px 46px;
+  border-radius: 0px 0px 24px 24px;
+  background: #fff;
+  box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 0px 0px 24px 24px;
+  -moz-border-radius: 0px 0px 24px 24px;
+  -ms-border-radius: 0px 0px 24px 24px;
+  -o-border-radius: 0px 0px 24px 24px;
+}
+.portfolio_name {
+  color: var(--black-clr);
+  font-size: 20px;
+  font-weight: var(--medium-weight);
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+.portfolio_types {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: var(--medium-weight);
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+/* ================ portfolio section css end here ============ */
 
 /* ================  section css start here ============ */
 /* ================  section css end here ============ */
