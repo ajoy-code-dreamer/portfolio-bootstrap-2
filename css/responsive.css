@@ -38,6 +38,19 @@
     font-size: 34px;
   }
   /* === counter === */
+  /* === about === */
+  .about_section_heading{
+    margin: 0 auto;
+    font-size: 44px;
+    line-height: 64px;
+  }
+  .about_section_details{
+    margin: 0 auto;
+  }
+  .about_btn{
+    margin-top: 14px;
+  }
+  /* === about === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -67,6 +80,19 @@
     padding: 64px 0;
   }
   /* === counter === */
+  /* === about === */
+  .about_section_heading{
+    margin: 0 auto;
+    font-size: 44px;
+    line-height: 64px;
+  }
+  .about_section_details{
+    margin: 0 auto;
+  }
+  .about_btn{
+    margin-top: 14px;
+  }
+  /* === about === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -92,6 +118,19 @@
     justify-content: center;
   }
   /* === banner === */
+  /* === about === */
+  .about_section_heading{
+    margin: 0 auto;
+    font-size: 44px;
+    line-height: 64px;
+  }
+  .about_section_details{
+    margin: 0 auto;
+  }
+  .about_btn{
+    margin-top: 14px;
+  }
+  /* === about === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 

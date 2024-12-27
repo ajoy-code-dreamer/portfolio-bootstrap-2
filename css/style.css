@@ -73,6 +73,7 @@ body {
   font-family: var(--poppins-font);
 }
 .common_btn {
+  padding: 23px 38px;
   color: var(--white-clr);
   font-size: 14px;
   font-weight: var(--medium-weight);
@@ -201,11 +202,11 @@ body {
 #service {
   padding: 54px 0 140px;
 }
-.service_section_shape{
+.service_section_shape {
   position: relative;
   display: inline-block;
 }
-.service_section_shape img{
+.service_section_shape img {
   position: absolute;
   z-index: -1;
   top: -23px;
@@ -281,11 +282,39 @@ body {
   font-weight: var(--regular-weight);
   line-height: 32px;
   letter-spacing: 0.5px;
+  margin: 0 auto;
 }
 /* ================ service section css end here ============ */
 
-/* ================  section css start here ============ */
-/* ================  section css end here ============ */
+/* ================ about section css start here ============ */
+#about {
+  background: url(../images/about_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 109px 0 113px;
+}
+.about_section_heading {
+  max-width: 482px;
+  color: var(--primary-text-clr);
+  font-size: 60px;
+  font-weight: var(--bold-weight);
+  line-height: 78px;
+  margin: 22px 0 15px;
+}
+.about_section_details {
+  max-width: 584px;
+  color: var(--primary-text-clr);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.about_btn{
+  column-gap: 10px;
+}
+/* ================ about section css end here ============ */
 
 /* ================  section css start here ============ */
 /* ================  section css end here ============ */
