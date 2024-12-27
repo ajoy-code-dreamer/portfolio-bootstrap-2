@@ -316,8 +316,15 @@ body {
 }
 /* ================ about section css end here ============ */
 
-/* ================  section css start here ============ */
-/* ================  section css end here ============ */
+/* ================ branding section css start here ============ */
+#branding{
+  padding: 127px 0 113px;
+}
+.branding_item{
+  max-width: 229px;
+  margin: 0 auto;
+}
+/* ================ branding section css end here ============ */
 
 /* ================  section css start here ============ */
 /* ================  section css end here ============ */
