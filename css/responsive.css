@@ -33,6 +33,11 @@
     padding: 64px 0;
   }
   /* === counter === */
+  /* === counter === */
+  .service_section_heading{
+    font-size: 34px;
+  }
+  /* === counter === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
