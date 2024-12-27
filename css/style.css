@@ -83,6 +83,13 @@ body {
   background-color: var(--btn-hover-clr) !important;
   color: var(--white-clr);
 }
+.common_section_name {
+  color: var(--primary-clr);
+  font-size: 16px;
+  font-weight: var(--medium-weight);
+  line-height: 26px;
+  letter-spacing: 1.5px;
+}
 /* ============= common css end here ================ */
 /* ================= navbar css start here ================ */
 #navbar {
@@ -142,13 +149,6 @@ body {
 /* ================ banner section css start here ============ */
 #banner {
   padding: 116px 0 44px;
-}
-.banner_sub_heading {
-  color: var(--primary-clr);
-  font-size: 16px;
-  font-weight: var(--medium-weight);
-  line-height: 26px;
-  letter-spacing: 1.5px;
 }
 .banner_heading {
   color: var(--primary-text-clr);
