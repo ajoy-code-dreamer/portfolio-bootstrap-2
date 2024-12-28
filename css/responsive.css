@@ -59,6 +59,16 @@
     margin-bottom: 30px;
   }
   /* === portfolio === */
+  /* === footer ==== */
+  footer{
+    text-align: center;
+    margin: 0 23px;
+  }
+  .footer_quick_link_wrapper ul{
+    column-gap: 21px;
+    justify-content: center;
+  }
+  /* === footer ==== */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 

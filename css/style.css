@@ -493,8 +493,60 @@ body {
 }
 /* ================ subscribe section css end here ============ */
 
-/* ================  section css start here ============ */
-/* ================  section css end here ============ */
+/* ================ footer section css start here ============ */
+footer {
+  margin: 0 52px;
+  padding: 112px 0 66px;
+  border-radius: 24px 24px 0px 0px;
+  background: var(--primary-text-clr);
+  -webkit-border-radius: 24px 24px 0px 0px;
+  -moz-border-radius: 24px 24px 0px 0px;
+  -ms-border-radius: 24px 24px 0px 0px;
+  -o-border-radius: 24px 24px 0px 0px;
+}
+.footer_details {
+  max-width: 374px;
+  color: var(--white-clr);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  margin: 24px 0 75px;
+}
+.footer_right_part_wrapper a {
+  color: var(--white-clr);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin-bottom: 24px;
+}
+.footer_right_part_wrapper .footer_mail i{
+  font-size: 20px;
+  margin-right: 20px;
+}
+.social_link{
+  font-size: 24px;
+  margin-right: 24px;
+}
+.footer_quick_link_wrapper ul {
+  column-gap: 47px;
+}
+.footer_quick_link {
+  color: var(--white-clr);
+  font-size: 14px;
+  font-weight: var(--regular-weight);
+  line-height: 22px;
+  letter-spacing: 1.5px;
+}
+.footer_policy a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+/* ================ footer section css end here ============ */
 
 /* ================  section css start here ============ */
 /* ================  section css end here ============ */
