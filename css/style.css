@@ -173,6 +173,12 @@ body {
   display: flex;
   align-items: center;
   column-gap: 10px;
+  color: var(--primary-text-clr-clr);
+  font-family: var(--poppins-font);
+  font-size: 14px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  letter-spacing: 0.5px;
 }
 .banner_btn_wrapper .banner_btn:nth-child(2) img {
   width: 20px;
@@ -491,6 +497,9 @@ body {
   letter-spacing: 0.25px;
   margin-bottom: 19px;
 }
+.subscribe_btn i {
+  margin-right: 9px;
+}
 /* ================ subscribe section css end here ============ */
 
 /* ================ footer section css start here ============ */
@@ -521,12 +530,12 @@ footer {
   letter-spacing: 0.5px;
   margin-bottom: 24px;
 }
-.footer_right_part_wrapper .footer_mail i{
+.footer_right_part_wrapper .footer_mail i {
   font-size: 20px;
   margin-right: 20px;
 }
-.social_link{
-  font-size: 24px;
+.social_link {
+  font-size: 24px !important;
   margin-right: 24px;
 }
 .footer_quick_link_wrapper ul {
